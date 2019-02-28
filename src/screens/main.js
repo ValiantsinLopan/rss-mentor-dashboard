@@ -23,7 +23,7 @@ const styles = {
     width: '100%',
     overflow: 'none',
     display: 'flex',
-    minHeight: '100vh',
+    height: '100vh',
     flexDirection: 'column',
   },
 };

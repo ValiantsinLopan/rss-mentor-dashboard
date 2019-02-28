@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Chip from '@material-ui/core/Chip';
 
 const legendItems = [
-  { name: 'Cheched', color: '#7FFF00' },
+  { name: 'Checked', color: '#7FFF00' },
   { name: 'To Check', color: '#FA8072' },
   { name: 'In Progress', color: '#FFFF00' },
   { name: 'To Do', color: '#A9A9A9' },
