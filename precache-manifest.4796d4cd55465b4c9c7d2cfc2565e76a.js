@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/rss-mentor-dashboard/static/js/runtime~main.5280a2c0.js"
   },
   {
-    "revision": "e40eed33c37bb4a6ef81",
-    "url": "/rss-mentor-dashboard/static/js/main.e40eed33.chunk.js"
+    "revision": "87f959fc6bd07c392497",
+    "url": "/rss-mentor-dashboard/static/js/main.87f959fc.chunk.js"
   },
   {
     "revision": "721b7117b81964c42487",
     "url": "/rss-mentor-dashboard/static/js/2.721b7117.chunk.js"
   },
   {
-    "revision": "e40eed33c37bb4a6ef81",
+    "revision": "87f959fc6bd07c392497",
     "url": "/rss-mentor-dashboard/static/css/main.1830f7f8.chunk.css"
   },
   {
-    "revision": "f4bb06adfb953ecda2acd596ce9a6cb8",
+    "revision": "963af48d21962c87326174c8cd7d82b2",
     "url": "/rss-mentor-dashboard/index.html"
   }
 ];
