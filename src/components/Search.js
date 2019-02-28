@@ -191,7 +191,7 @@ class Search extends Component {
             options={options}
             components={components}
             onChange={event => this.handleChange(event)}
-            placeholder="Search mentor by name"
+            placeholder="Search mentor by name or GitHub account"
             // isClearable
             isSearchable
           />

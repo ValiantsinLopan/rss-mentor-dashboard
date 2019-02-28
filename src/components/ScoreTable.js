@@ -21,10 +21,10 @@ class ScoreTable extends Component {
           <Table className={classes.table}>
             <TableHead>
               <TableRow className={classes.head}>
-                <TableCell align="center"><Typography variant="title" gutterBottom>Task</Typography></TableCell>
+                <TableCell className={classes.cell}><Typography variant="title" gutterBottom>Task</Typography></TableCell>
                 {
                   students.map(student => (
-                    <TableCell>
+                    <TableCell align="center" className={classes.cell}>
                       <Link href={student.github} underline="none">
                         <Typography variant="title" gutterBottom key={student.nickname}>{student.nickname}</Typography>
                       </Link>
@@ -36,7 +36,7 @@ class ScoreTable extends Component {
             <TableBody>
               {tasks.map(task => (
                 <TableRow>
-                  <TableCell>
+                  <TableCell className={classes.cell}>
                     <Link href={task.link} underline="none">
                       <Typography variant="title">{task.name}</Typography>
                     </Link>
@@ -63,9 +63,15 @@ const styles = {
   paper: {
     alignSelf: 'center',
     marginBottom: 20,
+    maxWidth: '95%',
+    overflowX: 'auto',
   },
   head: {
     backgroundColor: 'rgba(0, 255, 143, 0.2)',
+    textAlign: 'center',
+  },
+  cell: {
+    padding: '4px 24px 4px 24px', // rewrite defult TableCell style
   },
   notification: {
     textAlign: 'center',

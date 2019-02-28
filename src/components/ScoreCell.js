@@ -37,9 +37,10 @@ class ScoreCell extends Component {
   }
 
   render() {
-    const { task, studentTasks } = this.props;
+    const { task, studentTasks, classes } = this.props;
     return (
       <TableCell
+        className={classes.cell}
         align="center"
         style={
         {
@@ -56,7 +57,9 @@ class ScoreCell extends Component {
 }
 
 const styles = {
-
+  cell: {
+    padding: '4px 24px 4px 24px',
+  },
 };
 
 export default withStyles(styles)(ScoreCell);
